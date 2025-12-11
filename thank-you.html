@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Message Sent | Lisa Wheeler Counselling</title>
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --color-primary: #2a6f9b;
+        --color-accent: #83995e;
+        --color-text: #333;
+        --color-white: #fff;
+        --color-cream: #f9f7f4;
+        --font-heading: 'Playfair Display', Georgia, serif;
+        --font-body: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+          sans-serif;
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: var(--font-body);
+        background-color: var(--color-cream);
+        color: var(--color-text);
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+      }
+
+      .thank-you {
+        text-align: center;
+        max-width: 500px;
+        background: var(--color-white);
+        padding: 3rem;
+        border-radius: 8px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      }
+
+      .thank-you__icon {
+        width: 80px;
+        height: 80px;
+        background: var(--color-accent);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 1.5rem;
+        font-size: 2.5rem;
+        color: var(--color-white);
+      }
+
+      .thank-you__title {
+        font-family: var(--font-heading);
+        font-size: 2rem;
+        color: var(--color-primary);
+        margin-bottom: 1rem;
+      }
+
+      .thank-you__message {
+        font-size: 1.125rem;
+        line-height: 1.7;
+        margin-bottom: 2rem;
+        color: var(--color-text);
+      }
+
+      .thank-you__link {
+        display: inline-block;
+        padding: 0.875rem 2rem;
+        background-color: var(--color-primary);
+        color: var(--color-white);
+        text-decoration: none;
+        border-radius: 4px;
+        font-weight: 600;
+        transition: background-color 0.3s ease;
+      }
+
+      .thank-you__link:hover {
+        background-color: #1e5475;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="thank-you">
+      <div class="thank-you__icon">✓</div>
+      <h1 class="thank-you__title">Message Sent</h1>
+      <p class="thank-you__message">
+        Thank you for getting in touch. I'll respond to your message within 48
+        hours.
+      </p>
+      <a href="/" class="thank-you__link">Return to Homepage</a>
+    </div>
+  </body>
+</html>

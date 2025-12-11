@@ -1517,12 +1517,21 @@
               <h3 id="contact-heading">Send a Message</h3>
               <form
                 class="contact-form"
-                action="mailto:lisawheelercounsellor@gmail.com"
-                method="post"
-                enctype="text/plain"
+                name="contact"
+                method="POST"
+                data-netlify="true"
+                netlify-honeypot="bot-field"
+                action="/thank-you.html"
                 novalidate
                 aria-labelledby="contact-heading"
               >
+                <input type="hidden" name="form-name" value="contact" />
+                <p style="display: none">
+                  <label
+                    >Don't fill this out if you're human:
+                    <input name="bot-field"
+                  /></label>
+                </p>
                 <div class="form-group">
                   <label class="form-label" for="name"
                     >Name <span class="required">*</span></label
